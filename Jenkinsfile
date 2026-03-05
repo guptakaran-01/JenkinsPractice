@@ -5,7 +5,6 @@ pipeline{
             stage("build"){
                 steps{
                     echo"inside build service -------"
-                    sh'cd com'
                     sh'javac *.java'
                 }
             }
